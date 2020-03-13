@@ -1,0 +1,266 @@
+
+h1, h2 {
+    padding: 8px;
+    background: rgb(243, 191, 200) ;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.842);
+    font-family: Didot, "Didot LT STD", "Times New Roman", serif;
+}
+
+h1 {
+    font-size: 130px;
+    text-shadow: 2px 2px 5px linen;
+}
+
+h2 {
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 0 auto;
+    display: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    color: rgb(83, 83, 83);
+    display: inline-block;
+}   
+
+h4 {
+    margin: 1%;
+} 
+
+h5 {
+    font-family: Didot, "Didot LT STD", "Times New Roman", serif;
+    font-size: 40px;
+    margin-left: 0em;
+    text-align: center;
+    background-color: rgb(184, 182, 182);
+    color: rgba(255, 255, 255, 0.842);
+    margin: 0 auto;
+    text-shadow: 2px 2px 5px rgb(153, 153, 153); 
+} 
+
+h6 {
+    font-family: Calibri;
+    font-size: 30px;
+    margin: 1%;
+    margin-left: 0em;
+    padding: 0em;
+    text-align: center;
+    background-color:  rgb(184, 182, 182);
+    color: rgba(255, 255, 255, 0.842);
+    margin: 0 auto;
+    padding-bottom: 8px;
+    text-shadow: 2px 2px 5px rgb(153, 153, 153);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 80%; 
+}
+
+#nyhed1 {
+    display: inline-block;
+    border: solid;
+    margin: 15px; 
+    width: 940px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+    display: inline-block;
+    border-style: hidden;
+    border-bottom-style: dotted;
+}
+
+#nyhed2 {
+    display: inline-block;
+    border: solid;
+    margin: 15px; 
+    width: 940px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+    display: inline-block;
+    border-style: hidden;
+    border-bottom-style: dotted;
+}
+
+#navne {
+    color: rgb(83, 83, 83);
+    text-align: center;
+    font-size: 16px;
+}
+
+#theaansat {
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+#velkommen {
+    text-align: center;
+    border: solid;
+    margin: 15px; 
+    width: 190px;
+    border-radius: 14px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+}
+
+#ansatte {
+    text-align: center;
+    border: solid;
+    margin: 15px; 
+    width: 190px;
+    border-radius: 14px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+}
+
+#tips {
+    text-align: center;
+    border: solid;
+    margin: 15px; 
+    width: 190px;
+    border-radius: 14px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+}
+
+#nyhedsbrev {
+    text-align: center;
+    border: solid;
+    margin: 15px; 
+    width: 190px;
+    border-radius: 14px;
+    padding: 10px;
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+    }
+
+#toolbar1{
+    text-align: center;
+    background-color: rgb(184, 182, 182);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-style: solid; 
+    font-size: 15px;
+    border-radius: 25px;
+    display:inline-block;
+    width: 243px;
+    } 
+    
+#toolbar2{
+    text-align: center;
+    background-color: rgb(184, 182, 182);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-style: solid;
+    font-size: 15px; 
+    border-radius: 25px;
+    display:inline-block;
+    width: 243px;
+    }
+    
+#toolbar3{
+    text-align: center;
+    padding: 0em;
+    background-color: rgb(184, 182, 182);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-style: solid; 
+    font-size: 15px;
+    border-radius: 25px;
+    display:inline-block;
+    width: 243px;
+    }
+    
+#toolbar4{
+    text-align: center;
+    background-color: rgb(184, 182, 182);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-style: solid; 
+    font-size: 15px;
+    border-radius: 25px;
+    display:inline-block;
+    width: 243px;
+    }
+    
+#toolbar5{
+    text-align: center;
+    background-color: rgb(184, 182, 182);
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-style: solid; 
+    font-size: 15px;
+    border-radius: 25px;
+    display:inline-block;
+    width: 243px;
+    }
+
+a {
+    color: white;
+    text-shadow: 2px 2px 5px rgb(153, 153, 153);
+    text-decoration-skip: underline;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: rgb(83, 83, 83);
+    }
+
+#a {
+    text-shadow: 2px 2px 5px rgb(63, 63, 63);
+    color: black;
+    text-decoration-skip: underline;
+    text-decoration: none;
+    }
+
+    #a:hover {
+        color: rgb(83, 83, 83);
+    }
+
+#råd {
+    color: rgb(121, 121, 121);
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+    #råd:hover {
+    color: rgb(243, 191, 200) ;
+    }
+
+#linkside {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#forside {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: grey;
+    padding: 2em;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+    #forside:hover {
+        color: rgb(83, 83, 83);
+    }
